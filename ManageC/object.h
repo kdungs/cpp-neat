@@ -1,5 +1,5 @@
-#ifndef __OBJECT_H__
-#define __OBJECT_H__
+#ifndef _OBJECT_H
+#define _OBJECT_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -15,4 +15,4 @@ void object_free(object_t*);
 }
 #endif
 
-#endif /* __OBJECT_H__ */
+#endif /* _OBJECT_H */
